@@ -1,0 +1,196 @@
+html{
+		cursor: pointer;
+		background: url("../Assets/backtogether.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+	html, body {
+        overflow: hidden;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+
+.centered {
+  position: fixed;
+  top: 51%;
+  left: 44%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+		
+  .box{
+  z-index: 999;
+  margin: 0 auto;
+ margin-top: 50px;
+  width: 650px;
+  height: 453px;
+  
+
+		}
+
+a:hover {
+cursor: grabbing;
+
+}
+	
+	 /* unvisited link */
+a:link {
+  color: #37e84e;
+ text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: #37e84e;
+}
+
+/* mouse over link */
+a:hover {
+  font-weight: bold;
+
+}
+
+/* selected link */
+a:active {
+  color: #37e84e;
+} 
+
+
+
+body {
+font-family: 'VT323', monospace;
+font-size: 27px;
+color: #37e84e;
+text-shadow: 0 0 9px #3fdc54;
+
+}
+
+.clearfix { clear: both; }
+
+
+#audio-info { 
+	margin-left: 2%;
+	margin-bottom: 1%;
+	text-align: left; }
+
+#audio-info .artist { font-weight: bold; }
+
+input#volume {
+  
+  width: 13%;
+  margin-left: -200%;
+  -webkit-appearance: none !important;
+  background: #37e84e;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+#buttons {
+  width: 100%;
+  display: block;
+  margin: 15px auto;
+  margin-top: -21px;
+  margin-left: 13px;
+  overflow: auto;
+}
+
+button#play {
+  width: 70px;
+  height: 70px;
+  background: url("../Assets/PlayIcon.png") no-repeat;
+  float: left;
+  margin-left: -10px;
+}
+
+button#pause {
+  width: 70px;
+  height: 70px;
+  background: url("../Assets/PauseIcon.png") no-repeat;
+  float: left;
+  margin-left: -10px;
+}
+
+button#stop {
+  width: 70px;
+  height: 70px;
+  background: url("../Assets/StopIcon.png") no-repeat;
+  float: left;
+  margin-left: -10px;
+}
+
+button#prev {
+  width: 70px;
+  height: 70px;
+  background: url("../Assets/BackIcon.png") no-repeat;
+  float: left;
+  margin-left: 5px;
+}
+
+button#next {
+  width: 70px;
+  height: 70px;
+  background: url("../Assets/ForwardIcon.png") no-repeat;
+  float: left;
+  margin-left: -10px;
+}
+
+#tracker {
+  position: relative;
+  width: 100%;
+}
+
+#progress-bar {
+  width: 80%;
+  margin-left: 2%;
+  margin-bottom: 20px;
+  margin-top: -37px;
+  height: 10px;
+  background-color:#004F05;
+  float: left;
+}
+
+#progress {
+  background-color: #37e84e;
+  width: 0%;
+  margin-left: 0%;
+  margin-bottom: 20px;
+  height: 10px;
+  display: inline-block;
+}
+
+#duration {
+  position: absolute;
+  margin-left: 82%;
+  top: -54px;
+  padding: 4px 8px;
+}
+
+#playlist { 
+	margin-left: 1%;
+	margin-top: 12px;
+	list-style: none; }
+
+#playlist li {
+  margin: 5px;
+}
+
+#playlist li.active {
+  font-weight: bold;
+  padding: 3px;
+}
+
+#home-button{
+float: right;
+	margin-bottom: 50px;
+}
