@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+<title>WORK</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="jquery-script-clear"></div>
+<div class="centered">
+	<div class="box">
+<div id="container">
+  <div id="audio-player">
+    <div id="audio-info"> <span class="artist"></span> - <span class="title"></span> </div>
+    <input id="volume" type="range" min="0" max="10" value="4">
+    <div id="buttons"> <span>
+      <button id="prev"></button>
+      <button id="play"></button>
+      <button id="pause"></button>
+      <button id="stop"></button>
+      <button id="next"></button>
+      </span> </div>
+    <div class="clearfix"></div>
+    <div id="tracker">
+      <div id="progress-bar"> <span id="progress"></span> </div>
+      <span id="duration">0:00</span> </div>
+    <div class="clearfix"></div>
+    <ul id="playlist" class="hidden">
+      <li song="2019_RAID.mp3" artist="From the album: SWAT">RAID.mp3</li>
+      <li song="2019_TIMED.mp3" artist="From the album: SWAT">TIMED.mp3</li>
+      <li song="2019_Alullabyforadyingchild.mp3" artist="Misc">A Lullaby For a Dying Child.mp3</li>
+      <li song="2019_AnneFrankFinal.mp3" artist="Misc">Anne Frank.mp3</li>
+      <li song="2018_GdBy123.mp3" artist="Misc">Gdby123.mp3</li>
+	  <li song="My Little Flower.mp3" artist="From the album: Josea">My Little Flower.mp3</li>
+	  <li song="Castaine.mp3" artist="From the album: Josea">Castaine.mp3</li>
+	  <li song="AGC_7_SEVOL.mp3" artist="From the album: AGC">SEVOL.mp3</li>
+	  <li song="AGC_9_NINA.mp3" artist="From the album: AGC">NINA.mp3</li>  
+		<p><a id="home-button" href="index.html">
+			   * Return Home?</a></p>
+		
+    </ul>
+	 
+  </div>
+</div>
+	</div>
+	</div>
+		
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
