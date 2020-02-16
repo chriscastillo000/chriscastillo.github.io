@@ -1,0 +1,166 @@
+body {
+font-size: 27px;
+font-family: 'VT323', monospace;
+text-shadow: 0 0 9px #3fdc54;
+}
+
+#homebtn {
+	float: right;
+	font-size: 20px;
+}
+
+.labels {
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #37e84e;
+  word-wrap: break-word;
+  margin-bottom: 50px;
+}
+
+.frame {
+  margin: auto;
+  padding: 5px 0px;
+  width: 56px;
+  border: 2px solid #37e84e;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  background-color: transparent;
+  color: #37e84e;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+  border: 0px;
+  cursor: pointer;
+  text-shadow: 0 0 9px #3fdc54;
+}
+
+
+.fa {
+  font-size: 12px;
+
+}
+
+.flipx {
+  transform: scaleX(-1);
+}
+
+#score {
+  margin-top: 5px;
+}
+
+#outer-board {
+  width: 365px;
+  margin: auto;
+}
+
+#board {
+  float: left;
+  position: relative;
+  background-color: transparent;
+  width: 280px;
+  height: 448px;
+  margin: 12px auto;
+  border: 2px solid #37e84e;
+}
+
+#stats {
+  float: right;
+  position: relative;
+  background-color: transparent;
+  width: 70px;
+  height: 448px;
+  margin: 12px auto;
+  border: 2px solid #37e84e;
+}
+
+#banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  color: #37e84e;
+  z-index: 2;
+  text-align: center;
+}
+
+#message {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 23px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+#new-game {
+  font-weight: 100;
+  cursor: pointer;
+	text-transform: uppercase;
+}
+
+.block,
+.empty {
+  position: absolute;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  margin: 3px;
+}
+
+.empty {
+  opacity: 0.2;
+}
+
+.inner-tile {
+  position: absolute;
+  background-color: #37e84e;
+  border: 4px #37e84e;
+  width: 14px;
+  height: 14px;
+  margin: 3px;
+}
+
+.inner-inner-tile {
+  position: absolute;
+  background-color: #37e84e;
+  width: 8px;
+  height: 8px;
+  margin: 3px;
+}
+
+button {
+border: none;
+}
+
+
+
+#play{
+background: transparent;
+font-size: 20px;
+font-family: 'VT323', monospace;
+text-shadow: 0 0 9px #3fdc54;
+color: #37e84e;
+text-transform: uppercase;
+
+
+}
+
+#pause{
+background: transparent;
+font-size: 20px;
+font-family: 'VT323', monospace;
+text-shadow: 0 0 9px #3fdc54;
+color: #37e84e;
+text-transform: uppercase;
+
+}

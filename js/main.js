@@ -78,6 +78,7 @@ $('#playlist li').click(function(){
 	$('#pause').show();
 	audio.play();
 	showDuration();
+
 });
 
 //Volume control
